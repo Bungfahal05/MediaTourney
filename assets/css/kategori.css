@@ -1,0 +1,85 @@
+#kategori {
+    text-align: center;
+    margin-bottom: -15px;
+}
+a, figure {
+    display: inline-block;
+}
+figcaption {
+    font-size: 15px;
+    color: #404040;
+    margin-top: 5px;
+}
+figure {
+    padding: 0 6px 12px 6px;
+}
+.games:hover {
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.games {
+  width: auto;
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+}
+.judul{
+    color: #000;
+    font-size: 15px;
+}
+.judul h5{
+    color: #000;
+    font-size: 20px;
+}
+.garis {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  margin: 1rem 0;
+
+}
+.garis .garis-text {
+  position: relative;
+  display: inline-block;
+  padding: 0 1rem;
+  color: #000;
+  font-size: 25px;
+}
+.garis p{
+  position: relative;
+  padding: 0 1rem;
+  color: #000;
+  font-size: 15px;
+}
+
+.garis .garis-text:before, .garis .garis-text:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  border-top: 1px solid #DFE3E7;
+}
+.garis .garis-text:before {
+  right: 100%;
+}
+.garis .garis-text:after {
+  left: 100%;
+}
+@media only screen and (min-width: 768px) {
+
+figcaption {
+    font-size: 0.84em;
+    color: #404040;
+    margin-top: 10px;
+}
+.games {
+  width: 100%;
+}
+figure {
+    padding: 0 9px 18px 9px;
+}
+}

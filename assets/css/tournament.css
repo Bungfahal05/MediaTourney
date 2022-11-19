@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+.tipe h5{
+	background-color: red;
+	font-size: 14px;
+	width: 70px;
+	color: #fff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 5px;
+	text-align: center;
+}
+.tournament {
+	margin: 0;
+	padding: 0;
+}
+.judul{
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: -.5px;
+	font-family: 'Montserrat';
+}
+.textleft{
+	font-weight: 700;
+	font-size: 16px;
+	font-family: 'Montserrat';
+}
+.textright{
+	float: right;
+	font-weight: 700;
+	font-family: 'Montserrat';
+	color: #000;
+	font-size: 16px;
+}
+
+@media (min-width: 1400px) {
+	.images{
+		width: 135%;
+	}
+}
